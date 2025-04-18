@@ -9,11 +9,11 @@
  * to the LICENSE file distributed with this source code.
  */
 
-namespace FesKol\SfExampleComponent\Entity;
+namespace  Feskol\Bundle\ExampleComponentBundle\Entity;
 
 use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
-use FesKol\SfExampleComponent\Repository\TileRepository;
+use  Feskol\Bundle\ExampleComponentBundle\Repository\TileRepository;
 use FesKol\SfExampleContract\Contracts\TileInterface;
 
 #[ORM\Entity(repositoryClass: TileRepository::class)]

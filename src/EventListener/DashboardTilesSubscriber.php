@@ -9,10 +9,10 @@
  * to the LICENSE file distributed with this source code.
  */
 
-namespace FesKol\SfExampleComponent\EventListener;
+namespace Feskol\Bundle\ExampleComponentBundle\EventListener;
 
-use FesKol\SfExampleComponent\Entity\Tile;
-use FesKol\SfExampleComponent\Repository\TileRepository;
+use Feskol\Bundle\ExampleComponentBundle\Entity\Tile;
+use Feskol\Bundle\ExampleComponentBundle\Repository\TileRepository;
 use FesKol\SfExampleContract\Event\DashboardTilesEvent;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 

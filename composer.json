@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Feskol\\SfExampleComponent\\": "src/"
+            "Feskol\\Bundle\\ExampleComponentBundle\\": "src/"
         }
     }
 }

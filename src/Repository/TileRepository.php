@@ -9,12 +9,12 @@
  * to the LICENSE file distributed with this source code.
  */
 
-namespace FesKol\SfExampleComponent\Repository;
+namespace  Feskol\Bundle\ExampleComponentBundle\Repository;
 
 
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
-use FesKol\SfExampleComponent\Entity\Tile;
+use  Feskol\Bundle\ExampleComponentBundle\Entity\Tile;
 
 /**
  * @extends ServiceEntityRepository<Tile>

@@ -9,7 +9,7 @@
  * to the LICENSE file distributed with this source code.
  */
 
-namespace FesKol\SfExampleComponent\Controller;
+namespace Feskol\Bundle\ExampleComponentBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
@@ -20,7 +20,7 @@ class ExampleController extends AbstractController
     #[Route('/example', name: 'app_example')]
     public function example(): Response
     {
-        return $this->render('example.html.twig', [
+        return $this->render('@ExampleComponent/example.html.twig', [
             'controller_name' => 'Component Example Controller'
         ]);
     }

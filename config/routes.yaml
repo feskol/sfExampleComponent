@@ -1,0 +1,5 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: Feskol\Bundle\ExampleComponentBundle\Controller
+    type: attribute
